@@ -1,0 +1,26 @@
+.movie {
+  margin: 1em;
+  position: relative;
+  width: 210px;
+}
+
+.img {
+  /* border-radius: 7px; */
+  box-shadow: 2px;
+  transition: transform 0.5s ease;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+.btn-delete {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+}
+
+.icon-btn:hover {
+  color: red;
+  cursor: pointer;
+}
